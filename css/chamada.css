@@ -1,0 +1,22 @@
+.chamada  {
+    background-image: url(../img/background.jfif);
+    background-size: cover;
+    background-position: center;
+    color: var(--branco);
+    display: flex;
+    flex-direction: column;
+    padding-left: 13em;
+    height: 93vh;
+    justify-content: center;
+}
+
+.chamada__titulo {
+    font-family: var(--montserrat);
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    text-transform: uppercase;
+}
+
+.titulo__negrito {
+    font-weight: 700;
+}
