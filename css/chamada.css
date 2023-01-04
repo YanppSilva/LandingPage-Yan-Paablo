@@ -10,10 +10,6 @@
     justify-content: center;
 }
 
-.chamada a {
-    width: 50%;
-}
-
 .chamada__titulo {
     font-family: var(--montserrat);
     font-size: 2rem;
@@ -23,13 +19,4 @@
 
 .titulo__negrito {
     font-weight: 700;
-}
-
-.chamada__texto {
-    margin-bottom: 16px;
-}
-
-.chamada__botao:hover {
-    transition: 0.5s;
-    transform: scale(1.01);
 }

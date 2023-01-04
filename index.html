@@ -10,21 +10,18 @@
   <link rel="stylesheet" href="css/reset.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
-    integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <link rel="stylesheet" href="style.css">
   <link
     href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Open+Sans:wght@300;400;700&display=swap"
     rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 
 </head>
 
 <body>
   <header class="cabecalho container">
-    <div class="content">
-      <div class="text" data-text="Yan Pablo">Yan Pablo</div>
-    </div>
+    <h1 class="cabecalho__titulo">
+      < <b class="cabecalho__negrito">Yan</b> Pablo / >
+    </h1>
     <nav class="cabecalho__navegacao">
       <ul class="cabecalho__lista">
         <li class="cabecalho__link"><a href="#">
@@ -38,6 +35,7 @@
         <li class="cabecalho__link"><a href="#">
             < Contato />
           </a></li>
+
       </ul>
     </nav>
   </header>
@@ -46,32 +44,14 @@
     <p class="chamada__texto">Desenvolvedor Front-end, com 1 ano de experiência em desenvolvimento web.</p>
     <a class="chamada__botao botao" href="#">Confira minhas skills</a>
   </section>
-  <section class="container_sobre-mim">
-    <div class="container_card">
-      <div class="card">
-        <div class="imgBx">
-          <img src="img/yan pablo.png" alt="foto de Yan Pablo">
-        </div>
-        <div class="content">
-          <div class="detail">
-            <h2>Yan Pablo<br><span>Desenvolvedor Front-end</span></h2>
-            <ul class="social-icons">
-              <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i>
-                </a></li>
-              <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-              <li><a href="#"><i class="fa fa-github" aria-hidden="true"></i></a></li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="content_sobre-mim">
-      <div class="container_sobre-mim__box">
-        <h3 class="container_sobre-mim__titulo">About Me</h3>
-        <span class="container_sobre-mim__subTitulo">Sobre Mim</span>
+  <section class="container_about-me">
+    <div class="container">
+      <div class="container_about-me__box">
+        <h3 class="container_about-me__titulo">About Me</h3>
+        <span class="container__what-i-do--ingles">Sobre Mim</span>
         <div class="border-bottom"></div>
       </div>
-      <div class="container_sobre-mim__texto">
+      <div class="container_about-me__texto">
         <p class="about-me">Desenvolvedor Front-end, com um ano de experiência em desenvolvimento web. Tenho
           conhecimentos em HTML, CSS e Javascript. Tenho experiência em rotinas administrativas, com editores de
           planilhas e ferramentas de tratamento de dados como Excel e Power BI. Aderente a culturas ágeis e de
@@ -80,9 +60,24 @@
       </div>
     </div>
   </section>
-
+  <section class="container__skills">
+    <div class="container__skills--titulo">
+      <h3 class="container__what-i-do">What i Do</h3>
+      <span class="container__what-i-do--ingles">Minhas Skill's</span>
+      <div class="border-bottom"></div>
+    </div>
+    <div class="container__box">
+      <div class="container__skills-cards">
+        <div class="container__card">
+          <img src="img/brand-html5.svg" alt="icone ilustrativo da linguagem de marcação HTML5"
+            class="container__skill-img">
+          <p class="container__skill">HTML 5</p>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
   <footer class="rodape container">
   </footer>
 </body>
-
 </html>

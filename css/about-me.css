@@ -1,0 +1,46 @@
+.container{
+    display: flex;
+}
+
+.container_foto{
+    width: 300px;
+    height: 400px;
+}
+
+.container_about-me_foto {
+    width: auto;
+    height: auto;
+}
+
+
+.container_about-me {
+    height: 40vh;
+    position: relative;
+}
+
+.container_about-me__box {
+    margin: 4em 0 0 11em;
+}
+
+.container_about-me__titulo {
+    font-weight: 700;
+    color: var(--cinza-claro);
+    margin-bottom: 10px;
+}
+
+.container_about-me__texto {
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+    width: 60%;
+    margin: auto;
+
+}
+
+.about-me {
+    color: var(--branco);
+    margin: 3em auto;
+    font-size: 18px;
+    letter-spacing: 1px;
+    line-height: 24px;
+    text-align: justify;
+    padding: 1.5em;
+}
