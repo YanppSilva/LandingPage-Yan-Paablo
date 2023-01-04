@@ -10,13 +10,23 @@
     justify-content: center;
 }
 
+.chamada p {
+    margin-bottom: 10px;
+}
+
 .chamada__titulo {
     font-family: var(--montserrat);
     font-size: 2rem;
-    margin-bottom: 1.5rem;
+    margin-bottom: 1.1rem;
     text-transform: uppercase;
+    gap: 20px;
 }
 
 .titulo__negrito {
     font-weight: 700;
+}
+
+.chamada__titulo,
+.titulo__negrito {
+    line-height: 38px;
 }

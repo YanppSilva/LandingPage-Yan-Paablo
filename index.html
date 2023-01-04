@@ -10,18 +10,21 @@
   <link rel="stylesheet" href="css/reset.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+    integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="style.css">
   <link
     href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Open+Sans:wght@300;400;700&display=swap"
     rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
 
 </head>
 
 <body>
   <header class="cabecalho container">
-    <h1 class="cabecalho__titulo">
-      < <b class="cabecalho__negrito">Yan</b> Pablo / >
-    </h1>
+    <div class="content">
+      <div class="text" data-text="Yan Pablo">Yan Pablo</div>
+    </div>
     <nav class="cabecalho__navegacao">
       <ul class="cabecalho__lista">
         <li class="cabecalho__link"><a href="#">
@@ -35,49 +38,97 @@
         <li class="cabecalho__link"><a href="#">
             < Contato />
           </a></li>
-
       </ul>
     </nav>
   </header>
   <section class="chamada container">
     <h2 class="chamada__titulo">Hello World,<br><b class="titulo__negrito">I'm a Frontend Developer</b></h2>
-    <p class="chamada__texto">Desenvolvedor Front-end, com 1 ano de experiência em desenvolvimento web.</p>
-    <a class="chamada__botao botao" href="#">Confira minhas skills</a>
+    <p class="chamada__texto">Desenvolvedor Front-end, apaixonado por tecnologia e desenvolvimento web.</p>
+    <a class="chamada__botao botao" href="#">Confira minhas skills!</a>
   </section>
-  <section class="container_about-me">
-    <div class="container">
-      <div class="container_about-me__box">
-        <h3 class="container_about-me__titulo">About Me</h3>
-        <span class="container__what-i-do--ingles">Sobre Mim</span>
+  <section class="container_sobre-mim">
+    <div class="container_card">
+      <div class="card">
+        <div class="imgBx">
+          <img src="img/yan pablo.png" alt="foto de Yan Pablo">
+        </div>
+        <div class="content">
+          <div class="detail">
+            <h2>Yan Pablo<br><span>Desenvolvedor Front-end</span></h2>
+            <ul class="social-icons">
+              <li><a href="https://www.linkedin.com/in/yanpablo/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i>
+                </a></li>
+              <li><a href="https://www.instagram.com/yan.ppsilva/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+              <li><a href="https://github.com/YanppSilva" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="content_sobre-mim">
+      <div class="container_sobre-mim__box">
+        <h3 class="container_sobre-mim__titulo">About Me</h3>
+        <span class="container_sobre-mim__subTitulo">Sobre Mim</span>
         <div class="border-bottom"></div>
       </div>
-      <div class="container_about-me__texto">
+      <div class="container_sobre-mim__texto">
         <p class="about-me">Desenvolvedor Front-end, com um ano de experiência em desenvolvimento web. Tenho
           conhecimentos em HTML, CSS e Javascript. Tenho experiência em rotinas administrativas, com editores de
           planilhas e ferramentas de tratamento de dados como Excel e Power BI. Aderente a culturas ágeis e de
           Feedbacks. Busco atuar no mercado de tecnologia, em busca de novas qualificações, crescimento pessoal e
-          profissional, aplicando e aprimorando os conhecimentos já adquiridos. Disponível para novos desafios.</p>
+          profissional, aplicando e aprimorando os conhecimentos já adquiridos. Buscando novos desafios!</p>
       </div>
     </div>
   </section>
-  <section class="container__skills">
-    <div class="container__skills--titulo">
-      <h3 class="container__what-i-do">What i Do</h3>
-      <span class="container__what-i-do--ingles">Minhas Skill's</span>
-      <div class="border-bottom"></div>
+  <section class="skills">
+    <div class="container_sobre-mim__skill">
+      <h3 class="container_sobre-mim__titulo-skill">Skills</h3>
+      <span class="container_sobre-mim__subTitulo-skill">Habilidades</span>
+      <div class="border-bottom-skill"></div>
     </div>
-    <div class="container__box">
-      <div class="container__skills-cards">
-        <div class="container__card">
-          <img src="img/brand-html5.svg" alt="icone ilustrativo da linguagem de marcação HTML5"
-            class="container__skill-img">
-          <p class="container__skill">HTML 5</p>
+    <div class="container_skills">
+      <div class="box" style="--clr:#ff8c00;">
+        <div class="content">
+          <div class="icon"><i class="fa fa-html5" aria-hidden="true"></i></div>
+          <div class="texto__skills">
+            <h3>HTML</h3>
+            <p>O HTML é o componente base da web. Isso quer dizer que ele permite a construção de websites e a inserção
+              de novos conteúdos, como imagens e vídeos, por meio dos hipertextos.</p>
+            <a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML" target="_blank">Leia mais</a>
+          </div>
         </div>
       </div>
-    </div>
+      <div class="box" style="--clr:#0693e3;">
+        <div class="content">
+          <div class="icon">
+            <ion-icon name="logo-css3"></ion-icon></i>
+          </div>
+          <div class="texto__skills">
+            <h3>CSS</h3>
+            <p>O CSS é um mecanismo para adicionar estilos a uma página web, aplicado diretamente nas tags HTML ou ficar
+              contido dentro das tags style.</p>
+            <a href="https://developer.mozilla.org/pt-BR/docs/Web/CSS" target="_blank">Leia mais</a>
+          </div>
+        </div>
+      </div>
+      <div class="box" style="--clr:#ffcc3d;">
+        <div class="content">
+          <div class="icon">
+            <ion-icon name="logo-javascript"></ion-icon>
+          </div>
+          <div class="texto__skills">
+            <h3>JavaScript</h3>
+            <p>JavaScript é uma linguagem de programação interpretada estruturada, de script em alto nível com tipagem dinâmica fraca e multiparadigma.</p>
+            <a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript" target="_blank">Leia mais</a>
+          </div>
+        </div>
+      </div>
     </div>
   </section>
   <footer class="rodape container">
   </footer>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </body>
+
 </html>
