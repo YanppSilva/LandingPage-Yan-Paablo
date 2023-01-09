@@ -1,6 +1,5 @@
 const menuLinks = document.querySelectorAll('.cabecalho__navegacao a[href^="#"]');
 
-
 function getDistanceFromTheTop(element){
   const id = element.getAttribute("href");
   return document.querySelector(id).offsetTop;
@@ -15,13 +14,16 @@ function getDistanceFromTheTop(element){
 
 function scrollToSection(event) {
   event.preventDefault();
-  const distanceFromTheTop = getDistanceFromTheTop(event.target) - 68;
+  const distanceFromTheTop = getDistanceFromTheTop(event.target) - 90;
   smoothScrollTo(0, distanceFromTheTop);
+  // nativeScroll(distanceFromTheTop);
 }
 
 menuLinks.forEach((link) => {
-  link.addEventListenner("click", scrollToSection);
+  link.addEventListener("click", scrollToSection);
 })
+
+
 
 function smoothScrollTo(endX, endY, duration) {
   const startX = window.scrollX || window.pageXOffset;
@@ -30,7 +32,7 @@ function smoothScrollTo(endX, endY, duration) {
   const distanceY = endY - startY;
   const startTime = new Date().getTime();
 
-  duration = typeof duration !== "undefined" ? duration : 400;
+  duration = typeof duration !== "undefined" ? duration : 600;
 
   const easeInOutQuart = (time, from, distance, duration) => {
     if ((time /= duration / 2) < 1)
