@@ -5,6 +5,9 @@ function getDistanceFromTheTop(element){
   return document.querySelector(id).offsetTop;
 }
 
+
+// Por conta da falta de compatibilidade da propriedade scroll-behavior com alguns navegadores, esta função está desativada.
+
 // function nativeScroll(distanceFromTheTop) {
 //   window.scroll({
 //     top: distanceFromTheTop,

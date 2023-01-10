@@ -1,0 +1,18 @@
+.container-projetos {
+  display: flex;
+  justify-content: space-around;
+}
+
+.card__projetos {
+  height: auto;
+  width: 25%;
+}
+
+.card__projetos .tela__projeto {
+  height: 100%;
+  width: 100%;
+}
+
+.desricao__projetos-tecnologias--container {
+  background-color: ;
+}
