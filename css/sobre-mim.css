@@ -1,5 +1,7 @@
 .container_sobre-mim {
   width: 74%;
+  position: relative;
+  z-index: 1;
 }
 
 .container_card {

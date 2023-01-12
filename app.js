@@ -17,7 +17,7 @@ function getDistanceFromTheTop(element){
 
 function scrollToSection(event) {
   event.preventDefault();
-  const distanceFromTheTop = getDistanceFromTheTop(event.target) - 90;
+  const distanceFromTheTop = getDistanceFromTheTop(event.target) - 60;
   smoothScrollTo(0, distanceFromTheTop);
   // nativeScroll(distanceFromTheTop);
 }
@@ -53,3 +53,37 @@ function smoothScrollTo(endX, endY, duration) {
     window.scroll(newX, newY);
   }, 1000 / 60);
 }
+
+//Botão home
+const scrollAnima = document.querySelector('[data-anima="scroll"]');
+
+const metadeWindow = window.innerHeight * 3.0;
+console.log(metadeWindow);
+
+function animarScroll(event) {
+  const topoItem = scrollAnima.getBoundingClientRect().top;
+  const itemVisivel = topoItem - metadeWindow < 0;
+
+  if(itemVisivel) {
+    scrollAnima.classList.add('show-btn');
+  } else {
+    scrollAnima.classList.remove('show-btn');
+  }
+}
+
+window.addEventListener('scroll', animarScroll);
+
+const botaoHome = document.querySelector('[data-scroll="suave"] a[href^="#"]')
+
+function scrollTop(event){
+  event.preventDefault();
+  const href = event.currentTarget.getAttribute('href');
+  const topo = document.querySelector(href);
+
+  topo.scrollIntoView({
+    behavior:'smooth',
+    block: 'start',
+  })
+}
+
+botaoHome.addEventListener('click', scrollTop);
