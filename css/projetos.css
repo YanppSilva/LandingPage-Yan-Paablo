@@ -1,18 +1,41 @@
+.projetos { 
+  height: 90vh;
+  width: 85%;
+  margin: auto;
+
+  display: flex;
+  align-items: center;
+}
 .container-projetos {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-around;
 }
 
 .card__projetos {
-  height: auto;
-  width: 25%;
+  width: 20vw;
+  margin-top: 15px;
 }
 
-.card__projetos .tela__projeto {
-  height: 100%;
+.tela__projeto {
   width: 100%;
 }
 
-.desricao__projetos-tecnologias--container {
-  background-color: ;
+.descricao__projetos {
+  display: flex;
+  flex-direction: column;
+  
+  background: var(--card-skills);
+  border-radius: 0 0 5px 5px;
+  color: #999;
+  gap: 20px;
+  padding: 15px 10px;
+  width: auto;
+}
+
+.descricao__projetos-tecnologias {
+  border-radius: 5px;
+  background-color: var(--branco);
+  opacity: 0.4;
+  padding: 2px;
 }
