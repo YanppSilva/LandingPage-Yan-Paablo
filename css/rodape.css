@@ -6,7 +6,7 @@
   background-color: var(--bg-rodape);
 
   padding-top: 2.5rem;
-  padding-bottom: 2rem;
+  padding-bottom: 1rem;
 }
 
 .contato {
@@ -14,6 +14,7 @@
   align-items: center;
   margin: auto;
   gap: 30vw;
+  position: relative;
 }
 
 .contato_texto {
@@ -37,6 +38,14 @@
 }
 .contato .contato_links .social-icons li:hover .icon__footer {
   transform: rotate(360deg);
+}
+
+.copyright {
+  position: absolute;
+  color: var(--fonte-cinza);
+  bottom: 0;
+  left: 35%;
+  font-size: .8em;
 }
 
 @media screen and (min-width: 1024px) {
