@@ -13,10 +13,6 @@
     <a href="https://yanppsilva.github.io/LandingPage-Yan-Pablo/" target="_blank">
       Demo
     </a>
-    <span> | </span>
-    <a href="#">
-      Challenge
-    </a>
   </h3>
 </div>
 
