@@ -11,7 +11,7 @@
 <div align="center">
   <h3>
     <a href="https://yanppsilva.github.io/LandingPage-Yan-Pablo/" target="_blank">
-      Demo
+      Confira a Landing Page!
     </a>
   </h3>
 </div>
