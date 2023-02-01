@@ -10,8 +10,12 @@
 
 <div align="center">
   <h3>
-    <a href="https://yanppsilva.github.io/LandingPage-Yan-Pablo/" target="_blank">
-      Confira a Landing Page!
+    <a href="#" target="_blank">
+      Demo
+    </a>
+    <span> | </span>
+    <a href="#">
+      Challenge
     </a>
   </h3>
 </div>
