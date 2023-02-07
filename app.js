@@ -87,3 +87,7 @@ function scrollTop(event){
 }
 
 botaoHome.addEventListener('click', scrollTop);
+
+//modal sites - revisar
+const abreModal = document.querySelector('[data-abreModal="modal"]');
+console.log(abreModal);
