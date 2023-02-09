@@ -56,7 +56,6 @@
   left: 230px;
 }
 
-
 .container_sobre-mim__projetos h3 {
   color: #FFF;
   margin-bottom: 10px;
@@ -70,4 +69,25 @@
   width: 185px;
   margin-top: 8px;
   border-bottom: 2px solid #FFF;
+}
+
+.desricao__projetos-tecnologias--container {
+  position: relative;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.ver__site {
+  position: absolute;
+  right: 0;
+  background-color: #999;
+  border-radius: 5px;
+  color: var(--card-skills);
+  padding: 2px 3px;
+  font-size: .9em;
+  border: none;
+  cursor: pointer;
+  width: 60px;
+  height: 25px;
 }
