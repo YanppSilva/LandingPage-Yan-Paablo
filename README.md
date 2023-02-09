@@ -27,7 +27,7 @@
 - [Overview](#overview)
 - [Built With](#built-with)
 - [Features](#features)
-- [Contact](#contact)
+- [Contact](https://wa.me/85999719800)
 
 <!-- OVERVIEW -->
 
