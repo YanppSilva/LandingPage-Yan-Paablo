@@ -5,8 +5,8 @@
     color: var(--branco);
     display: flex;
     flex-direction: column;
-    padding-left: 13em;
     height: 100vh;
+    width: calc(100vw - 12px);
     justify-content: center;
 }
 
@@ -15,11 +15,17 @@
 }
 
 .chamada__titulo {
+    display: flex;
+    flex-direction: column;
     font-family: var(--montserrat);
-    font-size: 2rem;
+    font-size: 3.5rem;
     margin-bottom: 1.1rem;
     text-transform: uppercase;
     gap: 20px;
+}
+
+.chamada__texto {
+    font-size: 1.3em;
 }
 
 .titulo__negrito {

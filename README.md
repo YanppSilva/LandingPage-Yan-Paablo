@@ -10,7 +10,7 @@
 
 <div align="center">
   <h3>
-    <a href="https://yanppsilva.github.io/LandingPage-Yan-Pablo/" target="_blank">
+    <a href="#" target="_blank">
       Demo
     </a>
     <span> | </span>
@@ -27,7 +27,7 @@
 - [Overview](#overview)
 - [Built With](#built-with)
 - [Features](#features)
-- [Contact](https://wa.me/85999719800)
+- [Contact](#contact)
 
 <!-- OVERVIEW -->
 

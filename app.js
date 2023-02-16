@@ -57,7 +57,7 @@ function smoothScrollTo(endX, endY, duration) {
 //Botão home
 const scrollAnima = document.querySelector('[data-anima="scroll"]');
 
-const metadeWindow = window.innerHeight * 3.0;
+const metadeWindow = window.innerHeight * 3.5;
 
 function animarScroll(event) {
   const topoItem = scrollAnima.getBoundingClientRect().top;
@@ -114,58 +114,59 @@ var close4 = document.getElementsByClassName("close4")[0];
 var close5 = document.getElementsByClassName("close5")[0];
 var close6 = document.getElementsByClassName("close6")[0];
 
+
 // Quando o usuário clica no no botão, abre o modal correspondente || When the user clicks on a button, open the corresponding modal
-btn1.onclick = function() {
+btn1.onclick = function () {
   modal1.style.display = "flex";
 };
 
-btn2.onclick = function() {
+btn2.onclick = function () {
   modal2.style.display = "flex";
 };
 
-btn3.onclick = function() {
+btn3.onclick = function () {
   modal3.style.display = "flex";
 };
 
-btn4.onclick = function() {
+btn4.onclick = function () {
   modal4.style.display = "flex";
 };
 
-btn5.onclick = function() {
+btn5.onclick = function () {
   modal5.style.display = "flex";
 };
 
-btn6.onclick = function() {
+btn6.onclick = function () {
   modal6.style.display = "flex";
 };
 
 // Quando o usuário clica no botão de fechar, fecha o modal || When the user clicks on the close button, close the modal
-close1.onclick = function() {
+close1.onclick = function () {
   modal1.style.display = "none";
 };
 
-close2.onclick = function() {
+close2.onclick = function () {
   modal2.style.display = "none";
 };
 
-close3.onclick = function() {
+close3.onclick = function () {
   modal3.style.display = "none";
 };
 
-close4.onclick = function() {
+close4.onclick = function () {
   modal4.style.display = "none";
 };
 
-close5.onclick = function() {
+close5.onclick = function () {
   modal5.style.display = "none";
 };
 
-close6.onclick = function() {
+close6.onclick = function () {
   modal6.style.display = "none";
 };
 
 // QUando o usuário clicar em qualquer lugar fora do modal || When the user clicks anywhere outside the modal, close it
-window.onclick = function(evento) {
+window.onclick = function (evento) {
   if (evento.target == modal1) {
     modal1.style.display = "none";
   }
@@ -204,3 +205,12 @@ window.onclick = function(evento) {
 // const site = document.querySelector('.ver__site');
 // site.addEventListener('click', () => iniciaModal('modal-sites'));
 
+
+
+// Esse comando em JavaScript usa o método filter do objeto Array.prototype para filtrar os elementos da página que possuem a classe "ver__site", e em seguida, para cada elemento encontrado, imprime a mensagem "button" no console do navegador.
+
+// Mais especificamente, o comando começa selecionando todos os elementos do documento que possuem a classe "ver__site", usando o método document.getElementByClassName('ver__site'). Em seguida, o método filter é chamado em cima do objeto de retorno deste método, para filtrar os elementos que satisfazem uma condição. No caso, não há uma condição especificada, então todos os elementos são mantidos.
+
+// Aqui, Array.prototype.filter.call é usado em vez de simplesmente chamar document.getElementByClassName('ver__site').filter(...), porque getElementByClassName não retorna um objeto Array diretamente. O método filter é aplicado diretamente na lista de elementos retornados, usando o método call para invocar o método de Array.prototype em cima do objeto retornado por document.getElementByClassName.
+
+// Finalmente, o método console.log é usado para imprimir a mensagem "button" no console do navegador para cada elemento que passou pelo filtro.
