@@ -1,17 +1,22 @@
 .skills {
-  height: 80vh;
+  height: 100vh;
+  width: 100vw;
+  max-width: 1440px;
+  align-items: center;
+  margin: auto;
 }
 
 .container_sobre-mim__skill {
   display: flex;
   flex-direction: column;
   align-items: end;
-  margin-bottom: 60px;
+  padding-top: 100px;
 }
 
 
 .container_sobre-mim__skill h3 {
   color: #FFF;
+  margin-bottom: 10px;
 }
 
 .container_sobre-mim__skill span {
@@ -30,7 +35,7 @@
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
-  height: 80%;
+  padding-top: 100px;
 }
 
 .container_skills .box {

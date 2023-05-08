@@ -12,8 +12,9 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
     integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    crossorigin="anonymous" referrerpolicy="no-referrer"/>
   <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" href="img/icons/programming.png" type="image/x-icon">
   <link
     href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Open+Sans:wght@300;400;700&display=swap"
     rel="stylesheet">
@@ -22,25 +23,30 @@
 </head>
 
 <body>
-  <header class="cabecalho container">
-    <div class="content">
-      <div class="text" data-text="Yan Pablo">Yan Pablo</div>
+  <header class="cabecalho">
+    <div class="container">
+      <div class="content">
+        <div class="text" data-text="Yan Pablo">Yan Pablo</div>
+      </div>
+      <nav class="cabecalho__navegacao">
+        <ul class="cabecalho__lista">
+          <li class="cabecalho__link"><a href="#sobre">
+              Sobre
+            </a></li>
+          <li class="cabecalho__link"><a href="#skills">
+              Skill's
+            </a></li>
+          <li class="cabecalho__link"><a href="#projetos">
+              Projetos
+            </a></li>
+            <li class="cabecalho__link"><a href="#contatos">
+              Contatos
+            </a></li>
+        </ul>
+      </nav>
     </div>
-    <nav class="cabecalho__navegacao">
-      <ul class="cabecalho__lista">
-        <li class="cabecalho__link"><a href="#sobre">
-            < Sobre />
-          </a></li>
-        <li class="cabecalho__link"><a href="#skills">
-            < Skill's />
-          </a></li>
-        <li class="cabecalho__link"><a href="#projetos">
-            < Projetos />
-          </a></li>
-      </ul>
-    </nav>
   </header>
-  <section class="chamada container" id="topo">
+  <section class="chamada" id="topo">
     <div class="chamada__container">
       <h2 class="chamada__titulo">Hello World,<br><b class="titulo__negrito">I'm a Frontend Developer</b></h2>
       <p class="chamada__texto">Desenvolvedor Front-end, apaixonado por tecnologia e desenvolvimento web.</p>
@@ -52,7 +58,7 @@
       <div class="container_card">
         <div class="card">
           <div class="imgBx">
-            <img src="img/yan pablo.png" alt="foto de Yan Pablo">
+            <img src="img/profile_yp/yan pablo.png" alt="foto de Yan Pablo">
           </div>
           <div class="content">
             <div class="detail">
@@ -157,101 +163,101 @@
     </div>
     <div class="container-projetos">
       <div class="card__projetos" id="site01">
-        <img class="tela__projeto" src="img/tela 7dayofcode.jpg"
+        <img class="tela__projeto" src="img/modal_sites/tela 7dayofcode.jpg"
           alt="imagem do projeto devchallenge sete dias de código">
         <div class="descricao__projetos">
           <span class="descricao__projetos-texto">Landing page proposta pelo desafio 7dayofcode com o intuito de por em
             prática conceitos básicos de desenvolvimento web.</span>
           <div class="desricao__projetos-tecnologias--container">
-            <span class="descricao__projetos-tecnologias">html</span>
-            <span class="descricao__projetos-tecnologias">css</span>
-            <!-- <span class="descricao__projetos-tecnologias">javascript</span> -->
+            <span class="descricao__projetos-tecnologias html">html</span>
+            <span class="descricao__projetos-tecnologias css">css</span>
+            <!-- <span class="descricao__projetos-tecnologias js">javascript</span> -->
             <button class="ver__site" id="btn1">Ver</button>
           </div>
         </div>
       </div>
       <div class="card__projetos" id="site02">
-        <img class="tela__projeto" src="img/tela devchallenge.jpg" alt="imagem do projeto X">
+        <img class="tela__projeto" src="img/modal_sites/tela devchallenge.jpg" alt="imagem do projeto X">
         <div class="descricao__projetos">
           <span class="descricao__projetos-texto">Landing page proposta pelo desafio DevChallenge com o intuito de por
             em prática conceitos básicos de desenvolvimento web.</span>
           <div class="desricao__projetos-tecnologias--container">
-            <span class="descricao__projetos-tecnologias">html</span>
-            <span class="descricao__projetos-tecnologias">css</span>
-            <!-- <span class="descricao__projetos-tecnologias">javascript</span> -->
+            <span class="descricao__projetos-tecnologias html">html</span>
+            <span class="descricao__projetos-tecnologias css">css</span>
+            <!-- <span class="descricao__projetos-tecnologias js">javascript</span> -->
             <button class="ver__site" id="btn2">Ver</button>
           </div>
         </div>
       </div>
       <div class="card__projetos" id="site03">
-        <img class="tela__projeto" src="img/tela pokedex.jpg" alt="imagem do projeto X">
+        <img class="tela__projeto" src="img/modal_sites/tela pokedex.jpg" alt="imagem do projeto X">
         <div class="descricao__projetos">
           <span class="descricao__projetos-texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex,
             laborum.</span>
           <div class="desricao__projetos-tecnologias--container">
-            <span class="descricao__projetos-tecnologias">html</span>
-            <span class="descricao__projetos-tecnologias">css</span>
-            <span class="descricao__projetos-tecnologias">javascript</span>
+            <span class="descricao__projetos-tecnologias html">html</span>
+            <span class="descricao__projetos-tecnologias css">css</span>
+            <span class="descricao__projetos-tecnologias js">javascript</span>
             <button class="ver__site" id="btn3">Ver</button>
           </div>
         </div>
       </div>
       <div class="card__projetos" id="site04">
-        <img class="tela__projeto" src="img/tela lista de viagem.jpg" alt="imagem do projeto X">
+        <img class="tela__projeto" src="img/modal_sites/tela lista de viagem.jpg" alt="imagem do projeto X">
         <div class="descricao__projetos">
           <span class="descricao__projetos-texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex,
             laborum.</span>
           <div class="desricao__projetos-tecnologias--container">
-            <span class="descricao__projetos-tecnologias">html</span>
-            <span class="descricao__projetos-tecnologias">css</span>
-            <span class="descricao__projetos-tecnologias">javascript</span>
+            <span class="descricao__projetos-tecnologias html">html</span>
+            <span class="descricao__projetos-tecnologias css">css</span>
+            <span class="descricao__projetos-tecnologias js">javascript</span>
             <button class="ver__site" id="btn4">Ver</button>
           </div>
         </div>
       </div>
       <div class="card__projetos" id="site05">
-        <img class="tela__projeto" src="img/tela layout-grid.jpg" alt="imagem do projeto X">
+        <img class="tela__projeto" src="img/modal_sites/tela layout-grid.jpg" alt="imagem do projeto X">
         <div class="descricao__projetos">
           <span class="descricao__projetos-texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex,
             laborum.</span>
           <div class="desricao__projetos-tecnologias--container">
-            <span class="descricao__projetos-tecnologias">html</span>
-            <span class="descricao__projetos-tecnologias">css</span>
-            <span class="descricao__projetos-tecnologias">javascript</span>
+            <span class="descricao__projetos-tecnologias html">html</span>
+            <span class="descricao__projetos-tecnologias css">css</span>
+            <span class="descricao__projetos-tecnologias js">javascript</span>
             <button class="ver__site" id="btn5">Ver</button>
           </div>
         </div>
       </div>
       <div class="card__projetos" id="site06">
-        <img class="tela__projeto" src="img/tela apeperia.jpg" alt="imagem do projeto X">
+        <img class="tela__projeto" src="img/modal_sites/tela apeperia.jpg" alt="imagem do projeto X">
         <div class="descricao__projetos">
           <span class="descricao__projetos-texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex,
             laborum.</span>
           <div class="desricao__projetos-tecnologias--container">
-            <span class="descricao__projetos-tecnologias">html</span>
-            <span class="descricao__projetos-tecnologias">css</span>
-            <span class="descricao__projetos-tecnologias">javascript</span>
+            <span class="descricao__projetos-tecnologias html">html</span>
+            <span class="descricao__projetos-tecnologias css">css</span>
+            <span class="descricao__projetos-tecnologias js">javascript</span>
             <button class="ver__site" id="btn6">Ver</button>
           </div>
         </div>
       </div>
     </div>
   </section>
-  <footer class="rodape container">
+  <footer class="rodape" id="contatos">
     <section class="contato" id="contato">
       <div class="contato_texto">Fale comigo!</div>
       <div class="contato_links">
         <ul class="social-icons">
           <li>
             <ion-icon class="icon__footer" name="logo-whatsapp"></ion-icon><a
-              href="https://wa.me/+5585999719800">Whatsapp</a>
+              href="https://wa.me/+5585999719800" target="_blank">Whatsapp</a>
           </li>
           <li><i class="fa fa-linkedin icon__footer" aria-hidden="true"></i><a
-              href="https://www.linkedin.com/in/yanpablo/">Linkedin</a></li>
+              href="https://www.linkedin.com/in/yanpablo/" target="_blank">Linkedin</a></li>
           <li><i class="fa fa-github icon__footer" aria-hidden="true"></i><a
-              href="https://github.com/YanppSilva">Github</a></li>
+              href="https://github.com/YanppSilva" target="_blank">Github</a></li>
           <li><i class="fa fa-instagram icon__footer" aria-hidden="true"></i><a
-              href="https://www.instagram.com/yan.ppsilva/">Instagram</a></li>
+              href="https://www.instagram.com/yan.ppsilva/" target="_blank">Instagram</a></li>
         </ul>
       </div>
       <span class="copyright">Desenvolvivo por Yan Pablo 😎</span>
@@ -269,11 +275,11 @@
     <div class="modal">
       <button class="close1 fechar">x</button>
       <div class="modal-img">
-        <img src="img/tela 7dayofcode.jpg" alt="site clicado">
+        <img src="img/modal_sites/tela 7dayofcode.jpg" alt="site clicado">
       </div>
       <div class="modal-descricao">
         <div class="modal-profile">
-          <img src="img/yan pablo.png" alt="modal-img-profile">
+          <img src="img/profile_yp/yan pablo.png" alt="modal-img-profile">
           <span class="modal-nick">Desenvolvido por Yan Pablo</span>
         </div>
         <div class="modal-stacks">
@@ -292,11 +298,11 @@
     <div class="modal">
       <button class="close2 fechar">x</button>
       <div class="modal-img">
-        <img src="img/tela devchallenge.jpg" alt="site clicado">
+        <img src="img/modal_sites/tela devchallenge.jpg" alt="site clicado">
       </div>
       <div class="modal-descricao">
         <div class="modal-profile">
-          <img src="img/yan pablo.png" alt="modal-img-profile">
+          <img src="img/profile_yp/yan pablo.png" alt="modal-img-profile">
           <span class="modal-nick">Desenvolvido por Yan Pablo</span>
         </div>
         <div class="modal-stacks">
@@ -315,11 +321,11 @@
     <div class="modal">
       <button class="close3 fechar">x</button>
       <div class="modal-img">
-        <img src="img/tela pokedex.jpg" alt="site clicado">
+        <img src="img/modal_sites/tela pokedex.jpg" alt="site clicado">
       </div>
       <div class="modal-descricao">
         <div class="modal-profile">
-          <img src="img/yan pablo.png" alt="modal-img-profile">
+          <img src="img/profile_yp/yan pablo.png" alt="modal-img-profile">
           <span class="modal-nick">Desenvolvido por Yan Pablo</span>
         </div>
         <div class="modal-stacks">
@@ -338,11 +344,11 @@
     <div class="modal">
       <button class="close4 fechar">x</button>
       <div class="modal-img">
-        <img src="img/tela lista de viagem.jpg" alt="site clicado">
+        <img src="img/modal_sites/tela lista de viagem.jpg" alt="site clicado">
       </div>
       <div class="modal-descricao">
         <div class="modal-profile">
-          <img src="img/yan pablo.png" alt="modal-img-profile">
+          <img src="img/profile_yp/yan pablo.png" alt="modal-img-profile">
           <span class="modal-nick">Desenvolvido por Yan Pablo</span>
         </div>
         <div class="modal-stacks">
@@ -361,11 +367,11 @@
     <div class="modal">
       <button class="close5 fechar">x</button>
       <div class="modal-img">
-        <img src="img/tela layout-grid.jpg" alt="site clicado">
+        <img src="img/modal_sites/tela layout-grid.jpg" alt="site clicado">
       </div>
       <div class="modal-descricao">
         <div class="modal-profile">
-          <img src="img/yan pablo.png" alt="modal-img-profile">
+          <img src="img/profile_yp/yan pablo.png" alt="modal-img-profile">
           <span class="modal-nick">Desenvolvido por Yan Pablo</span>
         </div>
         <div class="modal-stacks">
@@ -384,11 +390,11 @@
     <div class="modal">
       <button class="close6 fechar">x</button>
       <div class="modal-img">
-        <img src="img/tela apeperia.jpg" alt="site clicado">
+        <img src="img/modal_sites/apeperia.jpg" alt="site clicado">
       </div>
       <div class="modal-descricao">
         <div class="modal-profile">
-          <img src="img/yan pablo.png" alt="modal-img-profile">
+          <img src="img/profile_yp/yan pablo.png" alt="modal-img-profile">
           <span class="modal-nick">Desenvolvido por Yan Pablo</span>
         </div>
         <div class="modal-stacks">
@@ -411,7 +417,7 @@
       </div>
       <div class="modal-descricao">
         <div class="modal-profile">
-          <img src="img/yan pablo.png" alt="modal-img-profile">
+          <img src="img/profile_yp/yan pablo.png" alt="modal-img-profile">
           <span class="modal-nick">Desenvolvido por Yan Pablo</span>
         </div>
         <div class="modal-stacks">
@@ -434,7 +440,7 @@
       </div>
       <div class="modal-descricao">
         <div class="modal-profile">
-          <img src="img/yan pablo.png" alt="modal-img-profile">
+          <img src="img/profile_yp/yan pablo.png" alt="modal-img-profile">
           <span class="modal-nick">Desenvolvido por Yan Pablo</span>
         </div>
         <div class="modal-stacks">
@@ -457,7 +463,7 @@
       </div>
       <div class="modal-descricao">
         <div class="modal-profile">
-          <img src="img/yan pablo.png" alt="modal-img-profile">
+          <img src="img/profile_yp/yan pablo.png" alt="modal-img-profile">
           <span class="modal-nick">Desenvolvido por Yan Pablo</span>
         </div>
         <div class="modal-stacks">
@@ -480,7 +486,7 @@
       </div>
       <div class="modal-descricao">
         <div class="modal-profile">
-          <img src="img/yan pablo.png" alt="modal-img-profile">
+          <img src="img/profile_yp/yan pablo.png" alt="modal-img-profile">
           <span class="modal-nick">Desenvolvido por Yan Pablo</span>
         </div>
         <div class="modal-stacks">
@@ -503,7 +509,7 @@
       </div>
       <div class="modal-descricao">
         <div class="modal-profile">
-          <img src="img/yan pablo.png" alt="modal-img-profile">
+          <img src="img/profile_yp/yan pablo.png" alt="modal-img-profile">
           <span class="modal-nick">Desenvolvido por Yan Pablo</span>
         </div>
         <div class="modal-stacks">
@@ -526,7 +532,7 @@
       </div>
       <div class="modal-descricao">
         <div class="modal-profile">
-          <img src="img/yan pablo.png" alt="modal-img-profile">
+          <img src="img/profile_yp/yan pablo.png" alt="modal-img-profile">
           <span class="modal-nick">Desenvolvido por Yan Pablo</span>
         </div>
         <div class="modal-stacks">

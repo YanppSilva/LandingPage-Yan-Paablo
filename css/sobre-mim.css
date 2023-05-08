@@ -1,5 +1,7 @@
 .sobre-mim {
-  width: calc(100vw - 12px);
+  width: 100vw;
+  max-width: 1440px;
+  margin: auto;
   height: 100vh;
   position: relative;
   z-index: 1;
@@ -22,7 +24,6 @@
   display: flex;
   align-items: center;
   overflow: hidden;
-  /* z-index: -1; */
 }
 
 .container_card .card {
@@ -159,7 +160,9 @@
   line-height: 24px;
   text-align: justify;
   border-radius: 5px;
+  background-color: var(--card-skills);
   box-shadow: 10px 10px 20px #363636;
+  padding: 0 15px;
   width: 100%;
   height: 250px;
   display: flex;
